@@ -1,0 +1,13 @@
+* {
+  font-family: "Georgia", "Times New Roman";
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+body {
+  margin: 5% 20% 0% 20%;
+}
