@@ -6,17 +6,28 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<a href="index.html">&lt;Back</a>
+<div id="container">
+<ul id="menu" class="clearfix">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="resume-en.html" class="selected">Resume</a></li>
+  <li><a href="blog.html">Blog</a></li>
+</ul>
+<div style="display: block; width: 100%; height: 35px;"></div>
 <h1>Experience (5+ years of engineering)</h1>
-<ul>
+<hr />
+<p>
+<ul class="resume">
 	<li><b>Ticketmaster/LiveNation</b>, <i>Software Engineer</i>, Quebec City (2011-present)</li>
 	<li><b>Laval University</b>, <i>Software Engineer and team leader</i>, Quebec City (2008-2011)</li>
 	<li><b>Fujitsu Consulting</b>, <i>Software Engineering Internship</i>, Quebec City (2007)</li>
 	<li><b>Broadsoft</b>, <i>Software Engineering Internship</i>, Montreal (2006)</li>
 	<li><b>Library and Archives Canada</b>, <i>Software Engineering Internship</i>, Gatineau (2005)</li>
 </ul>
+</p>
 <h1>Career achievements&nbsp;:&nbsp;</h1>
-<ul>
+<hr />
+<p>
+<ul class="resume">
 	<li>Creation of a capacity testing framework based on Gatling to enable all sort of performance testing. (Scala, Bash, Java)</li>
 	<li>Migration of a legacy JBoss 5.1 application from EJB, Seam to Tomcat, Spring, JPA. (Spring, JPA, Hibernate, Transactions, Tomcat, Java)</li>
 	<li>Configuration of a build system based on Maven with strong emphasize on developper productivity, build repeatability and reporting. Moving a bunch of applications from ivy/ant to maven. Configure JenkinsCI as our continuous integration server and creating remote deployment deployment scripts for integration tests. (Maven, Ant, Ivy, Groovy, bash, JenkinsCI)</li>
@@ -33,22 +44,27 @@
 	<li>Analysis and development of a SIP-based video-conferencing server based on JAIN-SLEE. (Java, JBoss, Mobicents, SIP, HypersonicSQL)</li>
 	<li>Analysis and development of a small AJAX web application to manage video-conferencing sessions.</li>
 </ul>
+</p>
 <h1>Education (7 years of higher education)</h1>
-<ul>
+<hr />
+<ul class="resume">
 	<li>B. Sc. in Information Technology Engineering (2008) - <a href="http://www.etsmtl.ca" target="_blank">Ecole de Technologie Superieure</a>&nbsp;(Montreal, CA)</li>
 	<li>College diploma (associate) Computer Science (2004) - <a href="http://www.cegeplapocatiere.qc.ca" target="_blank">Cegep de La Pocatiere</a>&nbsp;(La Pocatiere, CA)</li>
 </ul>
 <h1>Certifications</h1>
-<ul>
+<hr />
+<ul class="resume">
 	<li>Oracle Certified Professional Java SE 6 Programmer - <a href="https://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=5001&get_params=p_exam_id:1Z0-851&p_org_id=&lang=" target="_blank">Oracle</a>&nbsp;(2011)</li>
 	<li>Certified Software Development Professional - <a href="http://www.computer.org/portal/web/certification/csdp" target="_blank">IEEE Computer Society</a>&nbsp;(2013)</li>
 </ul>
 <h1>Associations</h1>
-<ul>
+<hr />
+<ul class="resume">
 	<li><a href="https://www.oiq.qc.ca/en/Pages/accueil.aspx" target="_blank">Ordre des Ingenieurs du Quebec</a>&nbsp;(2011)</li>
 </ul>
 <h1>Skills</h1>
-<ul>
+<hr />
+<ul class="resume">
 	<li>Java enterprise development, J2EE, JMS, EJB, Hibernate, Spring, JVM</li>
 	<li>Web development, Javascript programming, HTTP, HTML, DOM, Multimedia</li>
 	<li>Testing, TDD, BDD, automation, testing techniques</li>
@@ -60,5 +76,19 @@
 	<li>Maven, Jenkins, SVN, GIT, JBoss, Tomcat, Jetty, Jira, Crucible, Confluence</li>
 	<li>ActiveMQ, Couchbase, Node.JS, Grails, Gatling, Rails, Play!, Akka, Scala</li>
 </ul>
+</div>
 </body>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-42980863-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </html>
