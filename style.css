@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: "Georgia", "Times New Roman";
-  color: #666;
+  color: #333332;
   font-size: 16px;
   line-height: 1.5em;
 }
@@ -29,10 +29,6 @@ html[xmlns] .clearfix {
   height: 1%;
 }
 
-body {
-  background-color: #4F829E;
-}
-
 p {
   margin: 15px;
 }
@@ -45,7 +41,6 @@ h1 {
 #container {
   margin: 0 15% 0 15%;
   padding: 0px 25px 50px 25px;
-  background-color: #eee;
 }
 
 ul#menu {
@@ -60,8 +55,7 @@ ul#menu>li {
 }
 
 ul#menu>li :hover {
-  background-color: #666;
-  color: #eee;
+  text-decoration: underline;
 }
 
 ul#menu>li a {
@@ -69,13 +63,11 @@ ul#menu>li a {
   display: block;
   text-align: center;
   text-decoration: none;
-  background-color: #eee;
-  color: #666;
+  color: #333332;
 }
 
 ul#menu>li a.selected {
-  background-color: #666;
-  color: #eee;
+  text-decoration: underline;
 }
 
 ul.resume {
